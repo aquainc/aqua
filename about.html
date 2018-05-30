@@ -10,16 +10,14 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120142967-1"></script>
-<script>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-120142967-1"></script>
+    <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-120142967-1');
-</script>
-
-  </head>
+</script> </head>
   <body>
     <div id="page-wrapper">
       <!-- Header -->
@@ -46,9 +44,12 @@
           <h2>About Aqua.</h2>
           <p>Who we are, what we're doing, and how we got started. </p>
         </header>
-        <div class="box">Aqua. (then called Axosafe) was founded with the
-          invention of the Axosafe Stream (now the Aqua Stream) by 10 year old
-          Jonathan Smith. <a title="Bellevue 5th graders invention could..." href="http://www.bellevuereporter.com/news/bellevue-5th-graders-invention-could-help-endangered-species/">Read
+        <div style="display: flex; flex-direction: column; min-height: 100vh;" class="box">
+          <div style="flex: 1;">
+          <div style="float: left;"> <img title="Jonathan" style="width: 300px; height: 100%; padding-right: 20px;"
+              alt="A picture of Jonathan" src="images/Jonathan.png"> </div>
+          Jonathan Smith is the CEO and co-founder of Aqua. inc. He developed
+          the Stream. <a title="Bellevue 5th graders invention could..." href="http://www.bellevuereporter.com/news/bellevue-5th-graders-invention-could-help-endangered-species/">Read
             a story about him and the Stream here.</a> He created Stream to try
           to help his pet axolotl Axy have a more comfortable home. “Axy would
           mostly stay in the opposite corner of the filter,” Smith said. “And
@@ -56,29 +57,34 @@
           fast.” The Stream made the water calmer, allowing Axy to live in
           peace. It has been tested by the University of Kentucky and was
           featured at the Seattle Mini Maker Faire. <br>
-          <br>
-          Since then, Aqua. has continued to innovate in the field of aquatic
-          pet care.<br>
-          <br>
-          Our goal is to create products that make your and your fish's life
-          easier. <br>
+        </div>
+          <div style="flex: 1;">
+          <div style="float: left;"><img title="Benjamin" alt="A picture of Benjamin"
+              src="images/Benjamin.png" style="width: 300px; height: 100%; padding-right: 20px;"></div>
+          Benjamin is the COO and co-founder of Aqua. inc, as well as the lead
+          hardware and software engineer. He is also the webmaster. He joined
+          Aqua. when his friend Jonathan asked for help developing Auto, and
+          they've worked together ever since. <br>
+        </div>
+          Aqua's goal is to innovate in the field of aquatic pet care. We strive
+          to create products that make your and your fish's life easier. <br>
         </div>
       </section>
-      <!-- Footer -->
-      <footer id="footer">
-        <ul class="icons">
-          <!-- <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a><br>
-          </li>          <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a><br>          </li>-->
-          <li><a href="https://www.instagram.com/aquaincofficial/" class="icon fa-instagram"><span
-                class="label">Instagram</span></a><br>
-          </li>
-        </ul>
-        <ul class="copyright">
-          <li>© Aqua. inc All rights reserved</li>
-          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-        </ul>
-      </footer>
     </div>
+    <!-- Footer -->
+    <footer id="footer">
+      <ul class="icons">
+        <!-- <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a><br>
+          </li>          <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a><br>          </li>-->
+        <li><a href="https://www.instagram.com/aquaincofficial/" class="icon fa-instagram"><span
+              class="label">Instagram</span></a><br>
+        </li>
+      </ul>
+      <ul class="copyright">
+        <li>© Aqua. inc All rights reserved</li>
+        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+      </ul>
+    </footer>
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.dropotron.min.js"></script>
@@ -87,6 +93,5 @@
     <script src="assets/js/util.js"></script>
     <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
     <script src="assets/js/main.js"></script>
-    
   </body>
 </html>
